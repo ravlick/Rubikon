@@ -1,0 +1,147 @@
+@media(max-width:576px){
+    .inner__media{
+        max-width:540px;
+        padding:0 15px;
+        margin:auto;
+    }
+    .header__inner>div{
+        margin-top:10px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .post-1 h1{
+        font-size:43px;
+    }
+    .post-1{
+        text-align: center;
+    }
+    .promotion__inner-set{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .inner-tab{display:none;}
+    .law__inner-body-item{width:100%;}
+    .body-item-single{width:100%;}
+}
+@media(max-width:768px){
+    .inner__media{
+        max-width:720px;
+        margin:auto;
+        padding:0 15px;
+    }
+    .header__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar__inner ul{
+        display:none;
+    }
+    .slider__inner{
+        flex-direction: column;
+    }
+    .slider__inner-company{
+        width:100%;
+    }
+    .slider__inner-car{
+       display: none;
+    }
+    .work__inner-set{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .work__inner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .auction__inner{display:block}
+    .post-1 h2{
+        font-size:43px;
+    }
+    .post-1{
+        text-align: center;
+    }
+    .slider__inner-company h1{
+        font-size:43px;
+    }
+    .slider__inner-company p{
+        font-size:26px;
+    }
+    .promotion__inner-set{
+        flex-wrap: wrap;
+    }
+    .promotion__inner-item{
+        margin-top: 10px;
+    }
+    .sm-d-none{
+        display:none;
+    }
+    .deal__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .deal__inner .post-1{
+        text-align: left;
+    }
+
+}
+@media(min-width:769px) and (max-width:1024px){
+    .deal__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .deal__inner .post-1{
+        text-align: left;
+    }
+    .inner__media{
+        max-width:960px;
+        margin:auto;
+        padding:0 15px;
+    }
+    .inner-time .call span{
+        font-size:16px;
+    }
+    .work__inner-set{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .slider__inner-car img:first-child{
+        height:105%;
+    }
+    .auction__inner{display:block}
+    .slider__inner-company h1{
+        font-size:54px;
+    }
+    .slider__inner-company p{
+        font-size:26px;
+    }
+    .promotion__inner-set{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .promotion__inner-item{
+        margin:10px;
+    }
+    .law__inner-title>div:last-child img{
+        display:none;
+    }
+}
+@media(min-width:1025px) and (max-width:1399px){
+    .inner__media{
+        max-width:1140px;
+        margin:auto;
+        padding:0 15px;
+    }
+}
+@media(min-width:1400px){
+    .inner__media{
+        max-width:1320px;
+        margin:auto;
+        padding:0 15px;
+    }
+}
+
