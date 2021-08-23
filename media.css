@@ -25,6 +25,9 @@
     .body-item-single{width:100%;}
 }
 @media(max-width:768px){
+    .client__inner-title{
+        width:100%;
+    }
     .inner__media{
         max-width:720px;
         margin:auto;
@@ -89,6 +92,9 @@
 
 }
 @media(min-width:769px) and (max-width:1024px){
+    .client__inner-title{
+        width:100%;
+    }
     .deal__inner{
         display: flex;
         flex-direction: column;

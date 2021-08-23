@@ -1,6 +1,39 @@
+let col_slides = 3;
+
+let  witdh =  $(window).width();
+
+console.log(witdh);
+
+
+if(witdh < 1024)
+{
+
+    col_slides =2;
+}
+if(witdh < 768)
+{
+    col_slides =1;
+}
 $(document).ready(function(){
-    $('.slider-item').bxSlider();
+    $('.slider-item').bxSlider({
+        captions:true,
+        controls:false,
+        pager:true,
+        moveSlides:3,
+        slideWidth: 511,
+        minSlides: col_slides,
+        maxSlides: col_slides,
+        auto:true,
+        slideMargin:20,
+        adaptiveHeight:true,
+        responsive :true
+    });
 });
+
+
+
+
+
 
 
     $('.law__inner-body').each(function () {

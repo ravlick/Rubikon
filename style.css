@@ -596,8 +596,8 @@ header{
     width:70px;
     height:70px;
     position:absolute;
-    right:20px;
-    bottom:20px;
+    right:10px;
+    bottom:10px;
 }
 .body-item-single .tabs span.tab03:after{
     content:'';
@@ -610,9 +610,7 @@ header{
 }
 .body-item-single .tabs span{
     position:relative;
-    transition-property: height, width, background-color;
-    transition: 1s;
-    transition-timing-function: ease-in, ease, linear;
+
 }
 .tabs-content{height:100%;}
 .inner-tab .tab-item-01:after{
@@ -657,12 +655,13 @@ header{
 }
 .b-single{
     width:363px;
+    height:130px;
 }
 .b-single:before{
     content: '';
     background: url(./image/bg-work.png)no-repeat;
     width: 358px;
-    height: 104px;
+    height: 125px;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -685,10 +684,7 @@ header{
     min-height: 119px;
     position: relative;
 }
-.deal__inner-single img{
-    width:68px;
-    height: 53px;
-}
+
 .b-single{
     margin:30px 0;
 }
@@ -708,6 +704,7 @@ header{
 }
 .client{
     background: #F1F8FF;
+    padding:100px 0;
 }
 .auction-btn a{
     font-weight: 700;
@@ -716,4 +713,43 @@ header{
     color: #101010;
     text-decoration: none;
 }
+.slide-item{
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    background: #fff;
+}
+.slide-item>div{
+    padding: 30px 40px;
+}
+.bx-wrapper{
+    border:5px solid transparent;
+    background: transparent;
+    box-shadow: none;
+}
+
+.client__inner-title h3{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 63px;
+    color: #1A1A1A;
+}
+.client__inner-title{
+    margin-bottom: 50px;
+}
+.slide-item span{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A1A1A;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+    width: 50px;
+    height: 5px;
+    background: rgba(2, 255, 2, 0.3);
+
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background: #02FF02;
+}
+
 
