@@ -751,5 +751,50 @@ header{
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
     background: #02FF02;
 }
+.about__inner-title h3{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 63px;
+    color: #1A1A1A;
+}
+.about__inner-description{
+    grid-template-areas:"about-1 about-2"
+                       "about-1 about-3"
+                        "about-1 about-4";
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 70% 30%;
+    grid-gap: 40px;
+}
+.about-1 {
+    grid-area: about-1;
+    padding: 25px 0;
+}
+.about-2 {
+    grid-area: about-2;
+}
+.about-3 {
+    grid-area: about-3;
+}
+.about-4 {
+    grid-area: about-4;
+}
+.about-1 p{
+    margin:50px 0;
+}
+.about-abs{
+    background: url("./image/bg-work.png");
+    width:359px;
+    height:104px;
+    position: relative;
+    top:-50px;
+    right:-59px;
+    align-items: center;
+}
+.about-abs span{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1A1A;
+}
 
 
