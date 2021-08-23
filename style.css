@@ -611,7 +611,7 @@ header{
 .body-item-single .tabs span{
     position:relative;
     transition-property: height, width, background-color;
-    transition: 3s;
+    transition: 1s;
     transition-timing-function: ease-in, ease, linear;
 }
 .tabs-content{height:100%;}
