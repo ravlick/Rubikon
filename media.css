@@ -78,9 +78,25 @@
     .sm-d-none{
         display:none;
     }
+    .deal__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .deal__inner .post-1{
+        text-align: left;
+    }
 
 }
 @media(min-width:769px) and (max-width:1024px){
+    .deal__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .deal__inner .post-1{
+        text-align: left;
+    }
     .inner__media{
         max-width:960px;
         margin:auto;
