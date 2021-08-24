@@ -888,6 +888,31 @@ header{
 .viewcar__slide{
     align-items: center;
 }
+.footer{
+    margin-top: 150px;
+}
+.footer__top{
+    border-top:3px solid #ECF1F9;
+    border-bottom:3px solid #ECF1F9;
+    padding:40px 0;
+}
+.footer__top-inner>div{
+    margin:0 40px;
+}
+.footer-nav{
+    margin:50px 0;
+    padding-right: 50px;
+}
+.footer-nav ul{
+    list-style-type:none;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1A1A1A;
+}
 
 
 

@@ -27,6 +27,7 @@
 @media(max-width:768px){
     .client__inner-title{
         width:100%;
+        display:block;
     }
     .inner__media{
         max-width:720px;
