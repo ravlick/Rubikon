@@ -184,6 +184,31 @@ header{
 .navbar__inner ul li{
     padding:22px 35px;
 }
+.navbar__inner ul.d-flex {
+    position: relative;
+    width:70%;
+}
+.navbar__inner ul.d-flex:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+.navbar__inner ul.d-flex:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 97%;
+    background-color: #000;
+    width: 5%;
+    height: 100%;
+    transform: skewX(
+            -25deg
+    );
+}
 /**/
 .slider{
     background: url(./image/bg.png);
@@ -830,13 +855,31 @@ header{
     margin-left: -30px;
 }
 .viewcar__slide .one-slide{
-    width:35%;
-}
-.viewcar__slide>div img{
-    transform: skewX(-20deg) skewY(0deg);
     position: relative;
-    left: 50px;
-
+    z-index: -1;
+    margin-left: 50px;
+}
+.one-slide:before {
+    content: '';
+    position: absolute;
+    background-color: #F1F8FF;
+    left: -13%;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    z-index: 2;
+    transform: skewX(-20deg);
+}
+.one-slide:after {
+    content: '';
+    position: absolute;
+    background-color: #F1F8FF;
+    left: 88%;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    z-index: 2;
+    transform: skewX(-20deg);
 }
 .viewcar__slide .second-slide{
     width:60%;
