@@ -29,8 +29,8 @@ $(document).ready(function(){
         responsive :true
     });
     $('.viewcar__slider').bxSlider({
-        captions:true,
-        controls:false,
+        controls:true,
+        pager:false,
         adaptiveHeight:true,
         responsive :true
     });

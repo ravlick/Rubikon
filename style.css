@@ -742,13 +742,15 @@ header{
     line-height: 28px;
     color: #1A1A1A;
 }
-.bx-wrapper .bx-pager.bx-default-pager a{
+#client .bx-wrapper .bx-pager.bx-default-pager a{
     width: 50px;
     height: 5px;
     background: rgba(2, 255, 2, 0.3);
 
 }
-.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
+#client .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus{
     background: #02FF02;
 }
 .about__inner-title h3{
@@ -799,4 +801,47 @@ header{
 .viewcar{
     background: #F1F8FF;
 }
+#viewcar .bx-wrapper .bx-pager.bx-default-pager a{
+    width: 50px;
+    height: 5px;
+    background: rgba(2, 255, 2, 0.3);
 
+}
+#viewcar .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background: #02FF02;
+}
+#viewcar .bx-wrapper .bx-next{
+    background: url("./image/cil_arrow-right.png");
+    width:60px;
+    height:60px;
+    bottom:0!important;
+    top:120%;
+
+}
+#viewcar .bx-wrapper .bx-prev{
+    background: url("./image/cil_arrow-left.png");
+    width:60px;
+    height:60px;
+    bottom:0!important;
+    top:120%;
+    left:90%;
+    margin-left: -30px;
+}
+.viewcar__slide .one-slide{
+    width:35%;
+}
+.viewcar__slide>div img{
+    transform: skewX(-20deg) skewY(0deg);
+    position: relative;
+    left: 50px;
+
+}
+.viewcar__slide .second-slide{
+    width:60%;
+
+}
+.viewcar__slide{
+    align-items: center;
+}

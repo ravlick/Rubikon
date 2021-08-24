@@ -89,6 +89,12 @@
     .deal__inner .post-1{
         text-align: left;
     }
+    .about__inner-description{
+        display: block;
+    }
+    .viewcar{
+        display:none;
+    }
 
 }
 @media(min-width:769px) and (max-width:1024px){
