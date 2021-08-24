@@ -28,6 +28,12 @@ $(document).ready(function(){
         adaptiveHeight:true,
         responsive :true
     });
+    $('.viewcar__slider').bxSlider({
+        captions:true,
+        controls:false,
+        adaptiveHeight:true,
+        responsive :true
+    });
 });
 
 
