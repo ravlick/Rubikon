@@ -25,6 +25,10 @@
     .body-item-single{width:100%;}
 }
 @media(max-width:768px){
+    .client__inner-title{
+        width:100%;
+        display:block;
+    }
     .inner__media{
         max-width:720px;
         margin:auto;
@@ -86,9 +90,18 @@
     .deal__inner .post-1{
         text-align: left;
     }
+    .about__inner-description{
+        display: block;
+    }
+    .viewcar{
+        display:none;
+    }
 
 }
 @media(min-width:769px) and (max-width:1024px){
+    .client__inner-title{
+        width:100%;
+    }
     .deal__inner{
         display: flex;
         flex-direction: column;
